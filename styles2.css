@@ -1,0 +1,59 @@
+body {
+    background-image: url(d5d73a9ef78e8dc260881a86f2f2aaa9.gif);
+    background-size: cover;
+  }
+  .container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    /* border: 2px solid red; */
+    font-family: arial;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .container div {
+    text-align: center;
+  }
+  input {
+    width: 280px;
+    padding: 5px;
+  }
+  button {
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: rgb(151, 60, 255);
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+  }
+  
+  .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+  }
+  
+  @keyframes spinning82341 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
